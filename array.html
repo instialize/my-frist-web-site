@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<style>
+
+</style>
+<body>
+  <h1>Array</h1>
+  <h2>Syntax</h2>
+  <script>
+    var lists =["바나나","사과","파인애플"]
+  </script>
+
+  <h2>get</h2>
+  <script>
+    document.write(lists[0]);
+  </script>
+
+  <h2>add</h2>
+  <script>
+    lists.push("수박");
+
+    document.write(lists.length);
+  </script>
+
+
+  <ul>
+    <script>
+    var i = 0;
+      while(i <lists.length){
+        document.write('<li>' + lists[i] + '</li>');
+        i = i+1;
+      }
+
+    </script>
+  </ul>
+
+
+</body>
+</html>
